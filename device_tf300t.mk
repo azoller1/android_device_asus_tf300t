@@ -71,12 +71,13 @@ PRODUCT_PACKAGES += \
     mischelp \
     wifimacwriter \
     com.cyanogenmod.asusdec \
-    libasusdec_jni
+    libasusdec_jni \
+    OmniSwitch
 
 # Propertys spacific for this device
 PRODUCT_PROPERTY_OVERRIDES := \
     wifi.interface=wlan0 \
-    wifi.supplicant_scan_interval=15 \
+    wifi.supplicant_scan_interval=150 \
     tf.enable=y \
     ro.opengles.version=131072 \
     persist.sys.usb.config=mtp,adb
